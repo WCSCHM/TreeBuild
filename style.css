@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+#c {
+  width: 100%;
+  height: 100%;
+  display: block;
+  /* NOTE This creates the fade in/out animation */
+  /* opacity: 1;
+  transition: all 1s; */
+}
+.container {
+  border-radius: 5px;
+  width: 450px;
+  border: 1px solid #6c9c2c;
+  height: 25px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: all 1s;
+}
+#bar {
+  background: #95ca0d;
+  float: left;
+  height: 100%;
+  text-align: center;
+  line-height: 150%;
+}
+.control-active button {
+  color: rgb(44, 201, 255);
+}
+#blocker {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#instructions {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
